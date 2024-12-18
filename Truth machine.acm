@@ -1,0 +1,9 @@
+in
+&49
+goto 7
+48
+out
+end
+49
+out
+goto 7
