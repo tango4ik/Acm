@@ -1,7 +1,8 @@
 in
 &49
-goto 7
+goto 6
 out
 end
+49
 out
-goto 7
+goto 6
