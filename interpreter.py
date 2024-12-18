@@ -1,7 +1,7 @@
 class acm():
     def __init__(self,code:list[str]):
         self.code :list[str] = code
-        self.stack: int = None
+        self.stack: int = 104
     def do(self):
         i = 0
         while i < len(self.code):
@@ -15,8 +15,8 @@ class acm():
                 print(chr(self.stack),end="")
             elif "in" in bit:
                 self.stack = ord(input())
-            elif bit.isdigit():
-                self.stack = int(bit)
+            elif "set" in bit:
+                self.stack = int(bit.removeprefix("set "))
             elif "goto" in bit:
                 i = int(bit.removeprefix("goto ")) - 1
             elif "end" in bit:
