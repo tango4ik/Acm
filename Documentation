@@ -1,0 +1,9 @@
+this is the documentation
+& - this function checks the number written after it if it is the same the value in the last changed number.
+if it is the same it executes the next line else it skips the next line.
+for eg:-&59
+out :- outputs the assci value of thelast changed number
+any number alone in a line changes the last changed number to it
+in :- takes in input as a assci character
+goto :- goes to the line written after it. for eg. goto 5
+end :- ends the program when reached that line.
