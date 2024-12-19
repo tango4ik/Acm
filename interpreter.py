@@ -38,7 +38,7 @@ class acm():
                     i += 1
             i += 1
 code = []
-program = "fm"
+program = input()
 with open(program + '.acm') as f:
     code = f.readlines()
 inp = None
