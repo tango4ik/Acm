@@ -4,12 +4,28 @@ this is the documentation
 if it is the same it executes the next line else it skips the next line.
 for eg:-&59
 
-out :- outputs the assci value of thelast changed number
+out :- outputs the assci value of the top number in the stack
 
-any number alone in a line changes the last changed number to it
+. :- prints the top most stack value as an int
 
-in :- takes in input as a assci character
+set :- adds the given to the stack
+for eg:- set 49
+
+inc :- takes in input as a character
+
+ini :- takes in input as an int
 
 goto :- goes to the line written after it. for eg. goto 5
 
 end :- ends the program when reached that line.
+
+mul :- multiplies and removes the 2 top most numbers in the stack
+
+rem :- removes the value given after it 
+for rg:- rem 42
+
+div :- divides and removes the 2 top most numbers in the stack
+
+sub :- subtracts and removes the 2 top most numbers in the stack
+
+add :- adds and removes the 2 top most numbers in the stack
