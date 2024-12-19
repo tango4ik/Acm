@@ -1,8 +1,8 @@
-in
+inc
 &49
 goto 6
 out
 end
-49
+set 49
 out
 goto 7
