@@ -1,0 +1,32 @@
+ini
+ini
+inc
+
+&43
+goto 17
+
+&42
+goto 21
+
+&47
+goto 25
+
+&45
+goto 29
+end
+rem 43
+add
+.
+end
+rem 42
+mul
+.
+end
+rem 47
+div
+.
+end
+rem 45
+sub
+.
+end
